@@ -1,0 +1,16 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:item": {
+		"description": {
+			"identifier": "coberto:picked_up_spawner",
+			// Hidden: a blank one has no spawner saved in it, so it would do nothing.
+			"menu_category": { "category": "none", "is_hidden_in_commands": true }
+		},
+		"components": {
+			"minecraft:icon": { "textures": { "default": "coberto_picked_up_spawner" } },
+			"minecraft:max_stack_size": 1,
+			"minecraft:glint": true,
+			"minecraft:rarity": "rare"
+		}
+	}
+}
