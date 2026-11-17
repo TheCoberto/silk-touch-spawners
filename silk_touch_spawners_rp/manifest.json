@@ -1,0 +1,17 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Silk Touch Spawners",
+		"description": "Resources for Silk Touch Spawners.",
+		"uuid": "b807dab1-4ec1-4b53-8cbc-eeb0d3b9b9f8",
+		"version": [ 0, 1, 0 ],
+		"min_engine_version": [ 1, 26, 60 ]
+	},
+	"modules": [
+		{
+			"type": "resources",
+			"uuid": "637f33c7-328d-4bd7-aa6f-e527105bdb3d",
+			"version": [ 0, 1, 0 ]
+		}
+	]
+}

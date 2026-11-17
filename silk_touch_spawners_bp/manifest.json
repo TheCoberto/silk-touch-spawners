@@ -1,0 +1,34 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Silk Touch Spawners",
+		"description": "Mine a mob spawner with a Silk Touch pickaxe to pick it up, then place it anywhere. Keeps the spawner's mob.",
+		"uuid": "37f7a314-9f19-41b0-b94a-a1fb8752efde",
+		"version": [ 0, 1, 0 ],
+		"min_engine_version": [ 1, 26, 60 ]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "3db369e8-a244-414c-a51c-c69ab2d70cc0",
+			"version": [ 0, 1, 0 ]
+		},
+		{
+			"type": "script",
+			"language": "javascript",
+			"uuid": "a2228c6f-b46c-434a-9b3b-d8328d420f0f",
+			"entry": "scripts/main.js",
+			"version": [ 0, 1, 0 ]
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "b807dab1-4ec1-4b53-8cbc-eeb0d3b9b9f8",
+			"version": [ 0, 1, 0 ]
+		},
+		{
+			"module_name": "@minecraft/server",
+			"version": "2.11.0"
+		}
+	]
+}
